@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col-3 {
+    max-width: 33.33%;
+    flex: 1 0 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*++++++++++++++++++++++++++++++
+header css
+++++++++++++++++++++++++++++++*/
+header {
+    border-bottom: 1px solid #3b506c38;
+}
+
+header .row {
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 20%;
+    max-width: 20%;
+}
+
+nav {
+    flex-basis: 80%;
+    max-width: 80%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 23px 15px;
+}
+
+nav ul li a {
+    display: block;
+    color: #42546d00;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/*++++++++++++++++++++++++++++++
+banner section css
+++++++++++++++++++++++++++++++*/
+.banner-section {
+    padding: 50px 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 50px;
+    color: #405675fc;
+}
+
+.content span {
+    color: #0c66ff;
+    display: block;
+}
+
+.content p {
+    margin: 20px auto;
+    color: #10233c4d;
+    max-width: 800px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.content img {
+    max-width: 550px;
+    color: #405675fc;
+}
+
+/*++++++++++++++++++++++++++++++
+feature section css
+++++++++++++++++++++++++++++++*/
+
+.feature-content h2 {
+    font-size: 45px;
+    color: #405675fc;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.feature-content h2 span {
+    color: #fd5904eb;
+}
+
+.feature-content p {
+    margin: 5px auto;
+    color: #10233c4d;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.feature-section .row {
+    justify-content: center;
+}
+
+/*++++++++++++++++++++++++++++++
+blog section css
+++++++++++++++++++++++++++++++*/
+
+.post {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.post h3 {
+    font-size: 25px;
+    color: #405675fc;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.post img {
+    max-height: 160px;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.post p {
+    margin: 5px auto;
+    color: #09216b69;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.image5 {
+    background: #FDEBED;
+}
+
+.image6 {
+    background: #EBF9F4;
+
+}
+
+.image7 {
+    background: #FFF7E8;
+}
+
+
+/*++++++++++++++++++++++++++++++
+footer section css
+++++++++++++++++++++++++++++++*/
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #0C66FF;
+}
+
+footer P {
+    color: #ffffff7a;
+}
+
+footer p strong {
+    color: #fff;
+    letter-spacing: 2px;
+}
